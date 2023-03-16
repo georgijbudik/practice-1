@@ -1,0 +1,253 @@
+:root {
+  --main-title-color: #ffffff;
+  --main-button-color: #ffffff;
+  --second-title-color: #303030;
+  --text-color: #555555;
+  --accent-color: #ff6c00;
+}
+
+body {
+  font-family: "Open Sans", sans-serif;
+}
+
+.list {
+  list-style: none;
+}
+
+.link {
+  text-decoration: none;
+}
+
+.title {
+  font-family: "Raleway", sans-serif;
+  font-size: 42px;
+  line-height: calc(49 / 42);
+  letter-spacing: 0.05em;
+}
+
+.top-text {
+  font-weight: 600;
+  font-size: 11px;
+  line-height: 1.36;
+  text-transform: uppercase;
+}
+
+.bottom-text {
+  font-size: 18px;
+  line-height: 1.67;
+  letter-spacing: 0.02em;
+
+  color: var(--text-color);
+}
+.btn {
+  font-family: inherit;
+  font-weight: 600;
+  font-size: 12px;
+  line-height: 1.33;
+  letter-spacing: 0.09em;
+  text-transform: uppercase;
+  cursor: pointer;
+}
+
+/* ------------------HEADER--------------------- */
+
+.header {
+  background-color: gray;
+}
+.header-navigation {
+}
+.header-logo {
+}
+.header-item {
+}
+.header-link {
+  font-weight: 600;
+  font-size: 12px;
+  line-height: 1.33;
+  letter-spacing: 0.1em;
+  color: #ffffff;
+}
+
+.header-link:is(:hover, :focus) {
+  color: var(--accent-color);
+}
+
+.header-phone {
+  font-weight: 600;
+  font-size: 12px;
+  line-height: 1.33;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: #ffffff;
+}
+.header-btn {
+  color: var(--main-button-color);
+}
+
+/* ------------------HERO--------------------- */
+
+.hero {
+  background-color: bisque;
+}
+.hero-list {
+}
+.hero-item {
+}
+.hero-link {
+  font-weight: 600;
+  font-size: 11px;
+  line-height: 1.36;
+  letter-spacing: 0.2em;
+  color: #303030;
+}
+
+.hero-link:is(:hover, :focus) {
+  color: var(--accent-color);
+}
+
+.hero-top-text {
+  font-weight: 600;
+  font-size: 11px;
+  line-height: 1.36;
+  text-transform: uppercase;
+
+  color: rgba(157, 164, 189, 0.6);
+}
+
+.hero-title {
+  font-family: "Raleway", sans-serif;
+  font-size: 72px;
+  line-height: 1.09;
+  letter-spacing: 0.05em;
+  color: var(--main-title-color);
+}
+
+.hero-bottom-text {
+  font-size: 18px;
+  line-height: 1.67;
+  letter-spacing: 0.02em;
+
+  color: #9da4bd;
+}
+
+/* ------------------ABOUT--------------------- */
+
+.about {
+}
+.about-list {
+}
+.about-item {
+}
+.about-top-text {
+  color: #303030;
+}
+.about-title {
+  color: var(--second-title-color);
+}
+
+.about-text {
+  font-size: 14px;
+  line-height: 1.86;
+  letter-spacing: 0.02em;
+
+  color: var(--text-color);
+}
+
+.about-btn {
+  color: #303030;
+}
+
+/* ------------------PRICES--------------------- */
+
+.prices {
+  background-color: gray;
+}
+.prices-top-text {
+  color: rgba(157, 164, 189, 0.6);
+}
+.prices-title {
+  color: var(--main-title-color);
+}
+
+.prices-list {
+}
+
+.prices-item {
+}
+.prices-item-text {
+  font-size: 18px;
+  line-height: 1.67;
+  letter-spacing: 0.02em;
+
+  color: #9da4bd;
+}
+.prices-btn {
+  color: var(--main-button-color);
+}
+
+/* ------------------BENEFITS--------------------- */
+
+.benefits {
+}
+.benefits-list {
+}
+
+.benefits-item {
+}
+.benefits-item .count {
+  font-weight: 700;
+  font-size: 42px;
+  line-height: calc(57 / 42);
+  text-align: center;
+  letter-spacing: 0.05em;
+
+  color: #303030;
+}
+.benefits-item-text {
+  font-weight: 600;
+  font-size: 11px;
+  line-height: 1.36;
+  text-align: center;
+
+  color: #303030;
+}
+.benefits-top-text {
+  color: var(--second-title-color);
+}
+.benefits-title {
+  color: var(--second-title-color);
+}
+.benefits-bottom-text {
+}
+
+/* ------------------BARBERS--------------------- */
+
+.barbers {
+}
+.barbers-top-text {
+}
+.barbers-title {
+  color: var(--second-title-color);
+}
+
+.barbers-list {
+}
+.barbers-item {
+}
+.barbers-subtitle {
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 1.38;
+  text-align: center;
+  letter-spacing: 0.02em;
+
+  color: var(--second-title-color);
+}
+.barbers-item-title {
+  font-size: 14px;
+  line-height: 1.35;
+  text-align: center;
+  letter-spacing: 0.02em;
+
+  color: var(--accent-color);
+}
